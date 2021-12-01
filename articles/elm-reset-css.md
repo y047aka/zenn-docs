@@ -28,11 +28,11 @@ https://y047aka.github.io/elm-reset-css/
 
 y047aka/elm-reset-css は Elm のパッケージです。いくつかの人気のあるリセット CSS を `Html msg` 型で再実装し、Elm で簡単に扱えるようにしました。1 つのパッケージにまとめたので、呼び出す関数を変えるだけでリセット CSS を簡単に切り替えることができます。
 
-https://github.com/y047aka/elm-reset-css
+https://package.elm-lang.org/packages/y047aka/elm-reset-css/latest/
 
 #### elm-css でも使えます
 
-CSS 部分の実装には [elm-css] を使用しているので、`List Snippet` 型でも扱えるようにしてあります。[^1] 最近は [elm-ui] でも使いやすいように `Element msg` 型を提供することも考えています。
+CSS 部分の実装には [elm-css] を使用しているので、`List Snippet` 型でも扱えるようにしてあります。[^1]
 
 [elm-css]: https://github.com/rtfeldman/elm-css
 [elm-ui]: https://package.elm-lang.org/packages/mdgriffith/elm-ui/latest/
