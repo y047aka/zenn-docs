@@ -3,12 +3,14 @@ title: "リセットCSSを我が手に（elm-reset-css）"
 emoji: "🦾"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Elm", "CSS"]
-published: false
+published: true
 ---
 
 リセット CSS を切替・比較できるページを作りました！
 
 https://y047aka.github.io/elm-reset-css/
+
+現時点で以下のリセットCSSに対応しています。
 
 - [Eric Meyer’s Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
 - [html5doctor.com Reset Stylesheet](https://github.com/richclark/HTML5resetCSS)
