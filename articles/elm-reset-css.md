@@ -41,9 +41,9 @@ CSS 部分の実装には [elm-css] を使用しているので、`List Snippet`
 
 sanitize.css、ress、destyle.css の３種類について、直近の複数バージョンを提供しています。
 
-- [Css.Reset.Sanitize (latest, v12)](https://package.elm-lang.org/packages/y047aka/elm-reset-css/latest/Css-Reset-Sanitize)
-- [Css.Reset.Ress (latest, v3, v2)](https://package.elm-lang.org/packages/y047aka/elm-reset-css/latest/Css-Reset-Ress)
-- [Css.Reset.Destyle (latest, v2)](https://package.elm-lang.org/packages/y047aka/elm-reset-css/latest/Css-Reset-Destyle)
+- [Css.Reset.Sanitize (v13, v12)](https://package.elm-lang.org/packages/y047aka/elm-reset-css/latest/Css-Reset-Sanitize)
+- [Css.Reset.Ress (v4, v3, v2)](https://package.elm-lang.org/packages/y047aka/elm-reset-css/latest/Css-Reset-Ress)
+- [Css.Reset.Destyle (v3, v2)](https://package.elm-lang.org/packages/y047aka/elm-reset-css/latest/Css-Reset-Destyle)
 
 # リセット CSS の未来
 
