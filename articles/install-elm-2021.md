@@ -22,7 +22,7 @@ Elm の開発環境を構築する方法はどのくらいあるでしょうか�
 どれを使うべきかは目的に応じて選択すれば良いと思います。
 
 - とりあえず Elm を触ってみたい → **elm reactor**
-- コードを書き換えたらすぐにレンダリングしてほしい → **elm-live**
+- CSS の読み込みや、Hot Module Replacement ができれば必要十分 → **elm-live**
 - 既に webpack を使っているプロジェクトに Elm を追加したい → **webpack**
 - 設定ファイルを書きたくない、zero config が嬉しい → **Parcel**
 - esbuild を使ってみたい → **esbuild および vite**
