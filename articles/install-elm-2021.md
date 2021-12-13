@@ -96,7 +96,7 @@ Elm も公式にサポートされています。
 https://parceljs.org/languages/elm/
 
 v1 の頃に少し使っていました。v2 でも引き続き動作するようです。
-https://github.com/y047aka/elm-supercell
+https://github.com/y047aka/elm-chagama/tree/main/parcel
 
 # esbuild および vite
 
