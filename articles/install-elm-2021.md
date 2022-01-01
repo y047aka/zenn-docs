@@ -13,6 +13,7 @@ published: true
 Elm の開発環境を構築する方法はどのくらいあるでしょうか？
 
 - **elm reactor**
+- **Ellie (Elm Live Editor)**
 - **elm-live**
 - **webpack** および **create-elm-app**
 - **Parcel**
@@ -61,6 +62,23 @@ Elm の開発環境を構築する方法はどのくらいあるでしょうか�
 ### 環境構築例
 
 https://github.com/y047aka/elm-app-templates/tree/main/elm_reactor
+
+# Ellie (Elm Live Editor)
+
+`elm reactor` と同等の機能をオンラインで利用できます。ローカルに開発環境を構築するのが面倒な場合にはこちらが便利です。
+
+> Ellie(Elm Live Editor)はオンラインで Elm アプリを作成・シェアできるサイトです。
+> （書籍『[基礎からわかる Elm]』より引用）
+
+https://ellie-app.com/
+
+[基礎からわかる Elm]: https://www.c-r.com/book/detail/1299
+
+### 特徴
+
+- Elm Packages に公開されているパッケージも利用できる
+- コードのフォーマット機能やシェア用のリンク発行機能あり
+- CSS や他のファイルを読み込む場合には不向き
 
 # elm-live
 
