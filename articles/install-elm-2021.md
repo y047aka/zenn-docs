@@ -18,6 +18,7 @@ Elm の開発環境を構築する方法はどのくらいあるでしょうか�
 - **webpack**
 - **Parcel**
 - **vite**
+- **snowpack**
 
 1 つずつ見ていきましょう。
 
@@ -140,3 +141,17 @@ https://github.com/y047aka/elm-app-templates/tree/main/parcel
 ### 環境構築例
 
 https://github.com/y047aka/elm-app-templates/tree/main/vite
+
+# snowpack
+
+### 特徴
+
+- esbuild を使ったビルドが早い
+- 設定ファイルに [snowpack-plugin-elm] を追加することで Elm を使うことができる
+- ES Modules を使うので、 IE11 を対象とする場合は不向き
+
+[snowpack-plugin-elm]: https://github.com/marc136/snowpack-plugin-elm
+
+### 環境構築例
+
+https://github.com/y047aka/elm-app-templates/tree/main/snowpack
