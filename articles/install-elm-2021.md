@@ -171,4 +171,6 @@ https://dev.to/lindsaykwardell/setting-up-an-elm-project-in-2022-lj4
 
 この記事を書くにあたって [elm-app-templates] というリポジトリを作りました。esbuild 単体での環境構築なども試しているのでご覧いただけると嬉しいです（私自身の理解がまだ浅く、この記事には含めませんでした）。また、紹介している方法以外の環境構築方法をご存知の方は、ぜひ構築方法を共有いただけると嬉しいです！
 
+https://github.com/y047aka/elm-app-templates
+
 [elm-app-templates]: https://github.com/y047aka/elm-app-templates
