@@ -83,12 +83,20 @@ https://ellie-app.com/
 # elm-live
 
 開発サーバーを起動し、Elm ファイルの変更をリアルタイムに検知してレンダリングしてくれます。`elm make`コマンドを`elm-live`に置き換えて、簡単に使い始めることができます。
-elm-live すき！
 
-https://github.com/wking-io/elm-live
-
-公式ドキュメントが充実していて嬉しいです、読みましょう。`elm make` コマンドのオプションをそのまま使えて嬉しい！
 https://www.elm-live.com
+
+### 特徴
+
+- CSS の読み込みや、Hot Module Replacement など、必要十分な開発環境を構築できる
+- `elm make` のオプションを同じように使える
+- Elm 以外のライブリロードはサポートしていない
+
+### 環境構築例
+
+https://github.com/y047aka/elm-app-templates/tree/main/elm-live
+
+※ Elm 以外のビルドには他のライブラリを使用し、 npm scripts で実行を管理しています。
 
 # webpack および create-elm-app
 
@@ -117,14 +125,3 @@ https://text.hmsk.me/entries/2020-10-19/
 
 サンプルプロジェクトを参考にするのが良さそうです。
 https://github.com/hmsk/vite-plugin-elm/tree/main/example
-
-# npm-scripts を駆使する（elm-starfighter）
-
-何らかの理由によって、これらの方法を選択できないことがあるかもしれません。
-モジュールバンドラーを使わない場合にはどうしたら良いのでしょうか？
-
-設定や起動を npm-scripts で完結する [elm-starfighter] を公開しているので、困ったことがあれば使ってみてください。内部では elm-live やなどのパッケージを npm scripts で組み合わせて使っています。
-
-https://y047aka.space/posts/elm-starfighter/
-
-[elm-starfighter]: https://github.com/y047aka/elm-starfighter
