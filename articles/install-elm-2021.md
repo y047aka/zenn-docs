@@ -119,12 +119,15 @@ https://github.com/y047aka/elm-app-templates/tree/main/webpack
 
 # Parcel
 
-Elm も公式にサポートされています。
+### 特徴
 
-https://parceljs.org/languages/elm/
+- 設定ファイル不要（zero config）で動作する
+- Elm もサポートされている（ https://parceljs.org/languages/elm/ ）
 
-v1 の頃に少し使っていました。v2 でも引き続き動作するようです。
-https://github.com/y047aka/elm-chagama/tree/main/parcel
+
+### 環境構築例
+
+https://github.com/y047aka/elm-app-templates/tree/main/parcel
 
 # esbuild および vite
 
