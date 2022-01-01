@@ -17,7 +17,7 @@ Elm の開発環境を構築する方法はどのくらいあるでしょうか�
 - **elm-live**
 - **webpack**
 - **Parcel**
-- **esbuild** および **vite**
+- **vite**
 
 1 つずつ見ていきましょう。
 
@@ -123,14 +123,20 @@ https://github.com/y047aka/elm-app-templates/tree/main/webpack
 - 設定ファイル不要（zero config）で動作する
 - Elm もサポートされている（ https://parceljs.org/languages/elm/ ）
 
-
 ### 環境構築例
 
 https://github.com/y047aka/elm-app-templates/tree/main/parcel
 
-# esbuild および vite
+# vite
 
-https://text.hmsk.me/entries/2020-10-19/
+### 特徴
 
-サンプルプロジェクトを参考にするのが良さそうです。
-https://github.com/hmsk/vite-plugin-elm/tree/main/example
+- esbuild を使ったビルドが早い
+- 設定ファイルに [vite-plugin-elm] を追加することで Elm を使うことができる
+  - 作者さんのブログ記事 https://text.hmsk.me/entries/2020-10-19/
+
+[vite-plugin-elm]: https://github.com/hmsk/vite-plugin-elm
+
+### 環境構築例
+
+https://github.com/y047aka/elm-app-templates/tree/main/vite
