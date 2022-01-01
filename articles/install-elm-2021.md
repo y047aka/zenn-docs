@@ -18,7 +18,6 @@ Elm の開発環境を構築する方法はどのくらいあるでしょうか�
 - **webpack**
 - **Parcel**
 - **esbuild** および **vite**
-- npm-scripts を駆使する（**elm-starfighter**）
 
 1 つずつ見ていきましょう。
 
