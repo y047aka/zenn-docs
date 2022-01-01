@@ -1,5 +1,5 @@
 ---
-title: "[初稿] Elmの環境構築ガイド（2021）"
+title: "Elmの環境構築ガイド（2021）"
 emoji: "⚖️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Elm", "環境構築"]
@@ -7,7 +7,7 @@ published: true
 ---
 
 :::message alert
-この記事はまだ初稿です。新しく Elm を使う方に向けて、より充実した情報を提供したいと考えています。紹介している方法以外の環境構築方法をご存知の方は、この記事のコメント欄や [Pull Request](https://github.com/y047aka/zenn-docs/blob/main/articles/install-elm-2021.md) にて情報をお寄せください。
+新しく Elm を使う方に向けて、より充実した情報を提供したいと考えています。紹介している方法以外の環境構築方法をご存知の方は、この記事のコメント欄や [Pull Request](https://github.com/y047aka/zenn-docs/blob/main/articles/install-elm-2021.md) にて情報をお寄せください。
 :::
 
 Elm の開発環境を構築する方法はどのくらいあるでしょうか？
@@ -155,3 +155,20 @@ https://github.com/y047aka/elm-app-templates/tree/main/vite
 ### 環境構築例
 
 https://github.com/y047aka/elm-app-templates/tree/main/snowpack
+
+# そして 2022 年へ
+
+『Setting up an Elm project in 2022』という記事が公開されているので、参考にしてみてください。私の記事の対象には含めていませんが、[elm-spa] や [elm-pages] も非常に強力です。
+
+https://dev.to/lindsaykwardell/setting-up-an-elm-project-in-2022-lj4
+
+[elm-spa]: https://www.elm-spa.dev
+[elm-pages]: https://elm-pages.com
+
+# まとめ
+
+開発環境は目的に合わせて選択すると良いでしょう。私はこれまで elm-live を愛用してきました。最近は開発サーバに elm-live、ビルドに esbuild といった組み合わせも試しています。vite や snowpack も使い比べてみたいです。
+
+この記事を書くにあたって [elm-app-templates] というリポジトリを作りました。esbuild 単体での環境構築なども試しているのでご覧いただけると嬉しいです（私自身の理解がまだ浅く、この記事には含めませんでした）。また、紹介している方法以外の環境構築方法をご存知の方は、ぜひ構築方法を共有いただけると嬉しいです！
+
+[elm-app-templates]: https://github.com/y047aka/elm-app-templates
