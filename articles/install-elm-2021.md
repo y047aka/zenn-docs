@@ -15,7 +15,7 @@ Elm の開発環境を構築する方法はどのくらいあるでしょうか�
 - **elm reactor**
 - **Ellie (Elm Live Editor)**
 - **elm-live**
-- **webpack** および **create-elm-app**
+- **webpack**
 - **Parcel**
 - **esbuild** および **vite**
 - npm-scripts を駆使する（**elm-starfighter**）
@@ -98,15 +98,22 @@ https://github.com/y047aka/elm-app-templates/tree/main/elm-live
 
 ※ Elm 以外のビルドには他のライブラリを使用し、 npm scripts で実行を管理しています。
 
-# webpack および create-elm-app
+# webpack
 
-webpack で Elm を扱うためのローダーが提供されています。
+webpack で Elm を扱うためのプラグイン [elm-webpack-loader] が公開されています。既に webpack を使い慣れている場合は、これを活用すると良いでしょう。
 
-https://github.com/elm-community/elm-webpack-loader
+[elm-webpack-loader]: https://github.com/elm-community/elm-webpack-loader
 
-webpack を使いたい人には、[create-elm-app] も選択肢になるかもしれません。
+### 特徴
 
-https://github.com/halfzebra/create-elm-app
+- 設定次第で環境を細かく制御できる
+- `webpack.config.js` の設定が大変
+
+### 環境構築例
+
+https://github.com/y047aka/elm-app-templates/tree/main/webpack
+
+細かい設定は、[create-elm-app] などを参考にしてください。
 
 [create-elm-app]: https://github.com/halfzebra/create-elm-app
 
