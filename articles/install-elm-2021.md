@@ -1,5 +1,5 @@
 ---
-title: "[2稿]Elmの環境構築ガイド（2021）"
+title: "Elmの環境構築ガイド（2021）"
 emoji: "⚖️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Elm", "環境構築"]
