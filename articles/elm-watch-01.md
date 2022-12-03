@@ -10,7 +10,7 @@ published: true
 
 ---
 
-[elm-watch](https://github.com/lydell/elm-watch) は、一言で表現するなら「watch モード付きの `elm make`」です。Elm ファイルの変更を検知して再コンパイルし、ブラウザでのホットリロードを実現することだけに集中したライブラリです。
+[elm-watch](https://github.com/lydell/elm-watch) は、一言で表現するなら「watch モード付きの `elm make`」です。Elm ファイルの変更を検知して再コンパイルし、ブラウザでのホットリロードを実現することに集中したライブラリです。
 
 - リポジトリ：[lydell/elm-watch: `elm make` in watch mode. Fast and reliable.](https://github.com/lydell/elm-watch)
 - 公式ドキュメント：[Home - elm-watch](https://lydell.github.io/elm-watch/)
@@ -34,15 +34,24 @@ published: true
 
 # 使い方
 
-Elm の開発環境に追加でインストールして実行できます。次のコードを実行したあとに `index.html` をブラウザで直接開くだけで Elm のホットリロードが有効になります。
+Elm の開発環境にインストール
+※ Node.js v14 以上が必要です（Windows だと v16 以上がサポート対象とのこと）
 
 ```
 npm install elm-watch
-npx elm-watch init
-npx elm-watch hot
 ```
 
-※ Node.js v14 以上が必要です（Windows だと v16 以上がサポート対象とのこと）
+init で `elm-watch.json` を生成（ディレクトリ構造は適宜調整してください）
+
+```
+npx elm-watch init
+```
+
+起動（`index.html` はブラウザで直接開きます）
+
+```
+npx elm-watch hot
+```
 
 詳細は、公式ドキュメントや Simon Lydell さん自身の動画解説をご覧ください。
 
