@@ -27,7 +27,7 @@ Elmユーザーのコミュニティに呼びかけたところ2名の方にプ�
 Siiibo証券株式会社のCTO、松澤さんによる発表。
 実際の業務で関数型言語を採用した、これまでの5年間の経験談をお話しいただきました。
 
-![](https://storage.googleapis.com/zenn-user-upload/2c3b80047f87-20250627.jpg)
+![](https://storage.googleapis.com/zenn-user-upload/1c84cdc9bab4-20250628.jpg)
 
 
 ### [C-104] Elmのパフォーマンス、実際どうなの？ベンチマークに入門してみた
@@ -64,6 +64,8 @@ Siiibo証券株式会社のCTO、松澤さんによる発表。
 
 発表スライド上で3Dモデルを動かせることへの反響も大きかったようです。
 アンドレイさん自身が作ったライブラリ [elm-slice-show](https://github.com/w0rm/elm-slice-show) を使っています。
+
+![](https://storage.googleapis.com/zenn-user-upload/64664a6ab473-20250628.jpg)
 
 
 ### 当日の様子
