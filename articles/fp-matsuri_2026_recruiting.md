@@ -3,7 +3,7 @@ title: "関数型まつり2026のWebサイトをGleamで開発中！"
 emoji: "🎪"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["gleam", "lustre", "fpmatsuri"]
-published: false
+published: true
 ---
 
 昨年6月に開催した『関数型まつり』から半年が経ちました。
